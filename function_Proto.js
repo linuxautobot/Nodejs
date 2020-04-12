@@ -18,3 +18,5 @@ var John = new Person("John","Abrahim");
 console.log(John.lastname);
 
 John.greet();
+
+console.log(John.__proto__)
